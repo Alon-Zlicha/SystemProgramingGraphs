@@ -13,7 +13,6 @@ namespace ariel
         std::vector<std::vector<int>> adjMatrix;
 
     public:
-        Graph() = default;
         void loadGraph(std::vector<std::vector<int>> &graph);
         void printGraph();
         std::vector<std::vector<int>> &getAdjMatrix();
